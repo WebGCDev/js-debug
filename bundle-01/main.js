@@ -15,6 +15,8 @@ for (let i = 0; i > 5; i++) {
     console.log(i);
 }
 
+/* Ciclo for non corretto,variabile contatore "i", l'errore è presente nella condizione ( i > 5 ). la correzzione corretta è la seguente: for ( let i = 0; i < 5 ; i++); poichè il ciclo deve essere eseguito correttamente fino al numero 4 quindi nell'intervallo 0-4 */
+
 
 // ESERCIZIO 2
 function addIfEven(num) {
